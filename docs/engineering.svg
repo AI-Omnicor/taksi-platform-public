@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="430" viewBox="0 0 1040 430" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="enCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#181F29"/>
+      <stop offset="1" stop-color="#141A22"/>
+    </linearGradient>
+    <linearGradient id="enGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2BD46B"/>
+      <stop offset="1" stop-color="#17A75A"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="1039" height="429" rx="18" fill="#0D1117" stroke="#21262D"/>
+  <text x="520" y="44" text-anchor="middle" font-size="13" letter-spacing="6" fill="#8B949E">ENGINEERING</text>
+  <rect x="500" y="54" width="40" height="3" rx="1.5" fill="url(#enGreen)"/>
+
+  <!-- ===== Col 1: repository layout ===== -->
+  <g>
+    <rect x="40" y="84" width="300" height="300" rx="14" fill="url(#enCard)" stroke="#2D3742"/>
+    <text x="60" y="114" font-size="12" letter-spacing="3" fill="#3FB950">REPOSITORY LAYOUT</text>
+    <g font-size="11.5" font-family="'Cascadia Code', 'Consolas', monospace">
+      <text x="60" y="146" fill="#E6EDF3" font-weight="600">backend/</text>
+      <text x="150" y="146" fill="#8B949E" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5">Go · httpapi · payments · matching</text>
+      <text x="60" y="172" fill="#E6EDF3" font-weight="600">frontend_app/</text>
+      <text x="180" y="172" fill="#8B949E" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5">Flutter · all platforms</text>
+      <text x="60" y="198" fill="#E6EDF3" font-weight="600">deploy/</text>
+      <text x="122" y="198" fill="#8B949E" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5">nginx · systemd · env</text>
+      <text x="60" y="224" fill="#E6EDF3" font-weight="600">docs/</text>
+      <text x="108" y="224" fill="#8B949E" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5">internal docs</text>
+      <text x="60" y="250" fill="#E6EDF3" font-weight="600">legal/</text>
+      <text x="106" y="250" fill="#8B949E" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5">docs per jurisdiction</text>
+      <text x="60" y="276" fill="#E6EDF3" font-weight="600">AUDIT.md</text>
+      <text x="136" y="276" fill="#8B949E" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5">audit log · 20 passes</text>
+    </g>
+    <line x1="60" y1="296" x2="320" y2="296" stroke="#21262D"/>
+    <text x="60" y="322" font-size="10.5" fill="#6E7681">geo · compliance · tts · aisupport</text>
+    <text x="60" y="340" font-size="10.5" fill="#6E7681">pricemirror · admin console</text>
+    <text x="60" y="368" font-size="10" fill="#484F58">monorepo — one build, one history</text>
+  </g>
+
+  <!-- ===== Col 2: security model ===== -->
+  <g>
+    <rect x="370" y="84" width="340" height="300" rx="14" fill="url(#enCard)" stroke="#2D3742"/>
+    <text x="390" y="114" font-size="12" letter-spacing="3" fill="#3FB950">SECURITY MODEL</text>
+    <g font-size="11" fill="#C9D1D9">
+      <circle cx="398" cy="140" r="7" fill="none" stroke="#2BD46B" stroke-width="1.8"/>
+      <path d="M394.5 140 L397 142.5 L401.5 137" fill="none" stroke="#2BD46B" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="414" y="144">session tokens in secure storage</text>
+
+      <circle cx="398" cy="176" r="7" fill="none" stroke="#2BD46B" stroke-width="1.8"/>
+      <path d="M394.5 176 L397 178.5 L401.5 173" fill="none" stroke="#2BD46B" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="414" y="180">radar positions behind HMAC aliases</text>
+
+      <circle cx="398" cy="212" r="7" fill="none" stroke="#2BD46B" stroke-width="1.8"/>
+      <path d="M394.5 212 L397 214.5 L401.5 209" fill="none" stroke="#2BD46B" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="414" y="216">pickup PIN stays passenger-side</text>
+
+      <circle cx="398" cy="248" r="7" fill="none" stroke="#2BD46B" stroke-width="1.8"/>
+      <path d="M394.5 248 L397 250.5 L401.5 245" fill="none" stroke="#2BD46B" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="414" y="252">WS auth via session ticket</text>
+
+      <circle cx="398" cy="284" r="7" fill="none" stroke="#2BD46B" stroke-width="1.8"/>
+      <path d="M394.5 284 L397 286.5 L401.5 281" fill="none" stroke="#2BD46B" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="414" y="288">admin: env creds + TOTP 2FA</text>
+
+      <circle cx="398" cy="320" r="7" fill="none" stroke="#2BD46B" stroke-width="1.8"/>
+      <path d="M394.5 320 L397 322.5 L401.5 317" fill="none" stroke="#2BD46B" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="414" y="324">mock gateways blocked on public bind</text>
+    </g>
+    <line x1="390" y1="344" x2="690" y2="344" stroke="#21262D"/>
+    <text x="390" y="368" font-size="10" fill="#484F58">fail-closed · no baked-in secrets · daily OTP limits</text>
+  </g>
+
+  <!-- ===== Col 3: build & test ===== -->
+  <g>
+    <rect x="740" y="84" width="260" height="300" rx="14" fill="url(#enCard)" stroke="#2D3742"/>
+    <text x="760" y="114" font-size="12" letter-spacing="3" fill="#3FB950">BUILD &amp; TEST</text>
+
+    <rect x="760" y="132" width="220" height="66" rx="12" fill="#0D1117" stroke="#30363D"/>
+    <text x="774" y="156" font-size="11" fill="#3FB950" font-family="'Cascadia Code','Consolas',monospace">$ go build ./...</text>
+    <text x="774" y="176" font-size="11" fill="#3FB950" font-family="'Cascadia Code','Consolas',monospace">$ go test ./...</text>
+    <text x="966" y="150" font-size="9.5" fill="#484F58" text-anchor="end">backend</text>
+
+    <rect x="760" y="212" width="220" height="66" rx="12" fill="#0D1117" stroke="#30363D"/>
+    <text x="774" y="236" font-size="11" fill="#3FB950" font-family="'Cascadia Code','Consolas',monospace">$ flutter analyze</text>
+    <text x="774" y="256" font-size="11" fill="#3FB950" font-family="'Cascadia Code','Consolas',monospace">$ flutter test</text>
+    <text x="966" y="230" font-size="9.5" fill="#484F58" text-anchor="end">app</text>
+
+    <rect x="760" y="292" width="220" height="66" rx="12" fill="#0E2417" stroke="#2BD46B"/>
+    <text x="774" y="316" font-size="11.5" font-weight="600" fill="#3FB950">go vet · race suite ·</text>
+    <text x="774" y="334" font-size="11.5" font-weight="600" fill="#3FB950">20 audit passes — green</text>
+  </g>
+
+  <text x="520" y="412" text-anchor="middle" font-size="10" fill="#3A4048">TAKSI · AI-Omnicor</text>
+</svg>

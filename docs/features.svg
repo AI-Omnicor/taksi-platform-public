@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="580" viewBox="0 0 1040 580" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="ftCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#181F29"/>
+      <stop offset="1" stop-color="#141A22"/>
+    </linearGradient>
+    <linearGradient id="ftGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2BD46B"/>
+      <stop offset="1" stop-color="#17A75A"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="1039" height="579" rx="18" fill="#0D1117" stroke="#21262D"/>
+  <text x="520" y="46" text-anchor="middle" font-size="13" letter-spacing="6" fill="#8B949E">WHAT'S INSIDE</text>
+  <rect x="500" y="56" width="40" height="3" rx="1.5" fill="url(#ftGreen)"/>
+
+  <!-- Row 1 -->
+  <!-- 1 Ride engine -->
+  <g>
+    <rect x="18" y="86" width="188" height="212" rx="14" fill="url(#ftCard)" stroke="#2D3742"/>
+    <circle cx="112" cy="122" r="17" fill="#0D1117" stroke="#2BD46B" stroke-width="2"/>
+    <path d="M102 124 L106 116 h12 l4 8 v3 h-20 Z" fill="none" stroke="#2BD46B" stroke-width="1.6" stroke-linejoin="round"/>
+    <circle cx="106" cy="129" r="2.4" fill="#2BD46B"/><circle cx="118" cy="129" r="2.4" fill="#2BD46B"/>
+    <text x="112" y="164" text-anchor="middle" font-size="13.5" font-weight="600" fill="#E6EDF3">Ride engine</text>
+    <text x="112" y="188" text-anchor="middle" font-size="10.5" fill="#8B949E">quote → dispatch →</text>
+    <text x="112" y="203" text-anchor="middle" font-size="10.5" fill="#8B949E">pickup → payment</text>
+    <text x="112" y="232" text-anchor="middle" font-size="10" fill="#6E7681">PIN pickup · options</text>
+    <text x="112" y="247" text-anchor="middle" font-size="10" fill="#6E7681">quiet · child · luggage</text>
+  </g>
+
+  <!-- 2 Driver model -->
+  <g>
+    <rect x="222" y="86" width="188" height="212" rx="14" fill="url(#ftCard)" stroke="#2D3742"/>
+    <circle cx="316" cy="122" r="17" fill="#0D1117" stroke="#2BD46B" stroke-width="2"/>
+    <circle cx="316" cy="122" r="9" fill="none" stroke="#2BD46B" stroke-width="1.6"/>
+    <circle cx="316" cy="122" r="2.4" fill="#2BD46B"/>
+    <path d="M316 113 L316 117 M308 127 L311 125 M324 127 L321 125" stroke="#2BD46B" stroke-width="1.6"/>
+    <text x="316" y="164" text-anchor="middle" font-size="13.5" font-weight="600" fill="#E6EDF3">Driver model</text>
+    <text x="316" y="188" text-anchor="middle" font-size="10.5" fill="#8B949E">100% of the fare</text>
+    <text x="316" y="203" text-anchor="middle" font-size="10.5" fill="#8B949E">instant payout</text>
+    <text x="316" y="232" text-anchor="middle" font-size="10" fill="#6E7681">shift subscription</text>
+    <text x="316" y="247" text-anchor="middle" font-size="10" fill="#6E7681">scoring · matching</text>
+  </g>
+
+  <!-- 3 Pricing -->
+  <g>
+    <rect x="426" y="86" width="188" height="212" rx="14" fill="url(#ftCard)" stroke="#2D3742"/>
+    <circle cx="520" cy="122" r="17" fill="#0D1117" stroke="#2BD46B" stroke-width="2"/>
+    <path d="M512 129 L517 123 L521 126 L528 115" fill="none" stroke="#2BD46B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="528" cy="115" r="1.8" fill="#2BD46B"/>
+    <text x="520" y="164" text-anchor="middle" font-size="13.5" font-weight="600" fill="#E6EDF3">Pricing</text>
+    <text x="520" y="188" text-anchor="middle" font-size="10.5" fill="#8B949E">dynamic engine</text>
+    <text x="520" y="203" text-anchor="middle" font-size="10.5" fill="#8B949E">per-city classes</text>
+    <text x="520" y="232" text-anchor="middle" font-size="10" fill="#6E7681">regional factors</text>
+    <text x="520" y="247" text-anchor="middle" font-size="10" fill="#6E7681">bounded auto-fix</text>
+  </g>
+
+  <!-- 4 Payments -->
+  <g>
+    <rect x="630" y="86" width="188" height="212" rx="14" fill="url(#ftCard)" stroke="#2D3742"/>
+    <circle cx="724" cy="122" r="17" fill="#0D1117" stroke="#2BD46B" stroke-width="2"/>
+    <rect x="716" y="117" width="16" height="11" rx="2" fill="none" stroke="#2BD46B" stroke-width="1.6"/>
+    <line x1="716" y1="121" x2="732" y2="121" stroke="#2BD46B" stroke-width="1.6"/>
+    <text x="724" y="164" text-anchor="middle" font-size="13.5" font-weight="600" fill="#E6EDF3">Payments</text>
+    <text x="724" y="188" text-anchor="middle" font-size="10.5" fill="#8B949E">Sber · SBP · Payrail</text>
+    <text x="724" y="203" text-anchor="middle" font-size="10.5" fill="#8B949E">local rails</text>
+    <text x="724" y="232" text-anchor="middle" font-size="10" fill="#6E7681">money flows only</text>
+    <text x="724" y="247" text-anchor="middle" font-size="10" fill="#6E7681">passenger → driver</text>
+  </g>
+
+  <!-- 5 Geo -->
+  <g>
+    <rect x="834" y="86" width="188" height="212" rx="14" fill="url(#ftCard)" stroke="#2D3742"/>
+    <circle cx="928" cy="122" r="17" fill="#0D1117" stroke="#2BD46B" stroke-width="2"/>
+    <path d="M928 113 c-4.5 0 -7 3 -7 6.5 c0 5 7 11.5 7 11.5 c0 0 7 -6.5 7 -11.5 c0 -3.5 -2.5 -6.5 -7 -6.5 Z" fill="none" stroke="#2BD46B" stroke-width="1.6"/>
+    <circle cx="928" cy="120" r="2.4" fill="#2BD46B"/>
+    <text x="928" y="164" text-anchor="middle" font-size="13.5" font-weight="600" fill="#E6EDF3">Geo</text>
+    <text x="928" y="188" text-anchor="middle" font-size="10.5" fill="#8B949E">2GIS → Mapbox →</text>
+    <text x="928" y="203" text-anchor="middle" font-size="10.5" fill="#8B949E">OSM / OSRM</text>
+    <text x="928" y="232" text-anchor="middle" font-size="10" fill="#6E7681">provider cascade</text>
+    <text x="928" y="247" text-anchor="middle" font-size="10" fill="#6E7681">83-country polygons</text>
+  </g>
+
+  <!-- Row 2 -->
+  <!-- 6 Compliance -->
+  <g>
+    <rect x="18" y="314" width="188" height="212" rx="14" fill="url(#ftCard)" stroke="#2D3742"/>
+    <circle cx="112" cy="350" r="17" fill="#0D1117" stroke="#2BD46B" stroke-width="2"/>
+    <path d="M112 341 L120 344.5 L120 352 c0 5 -3.5 8 -8 10 c-4.5 -2 -8 -5 -8 -10 L104 344.5 Z" fill="none" stroke="#2BD46B" stroke-width="1.6"/>
+    <path d="M108.5 350 L111 352.5 L115.5 347.5" fill="none" stroke="#2BD46B" stroke-width="1.6" stroke-linecap="round"/>
+    <text x="112" y="392" text-anchor="middle" font-size="13.5" font-weight="600" fill="#E6EDF3">Compliance</text>
+    <text x="112" y="416" text-anchor="middle" font-size="10.5" fill="#8B949E">FGIS Taxi · FNS</text>
+    <text x="112" y="431" text-anchor="middle" font-size="10.5" fill="#8B949E">FZ-580 journal</text>
+    <text x="112" y="460" text-anchor="middle" font-size="10" fill="#6E7681">fail-closed checks</text>
+    <text x="112" y="475" text-anchor="middle" font-size="10" fill="#6E7681">180-day retention</text>
+  </g>
+
+  <!-- 7 AI support -->
+  <g>
+    <rect x="222" y="314" width="188" height="212" rx="14" fill="url(#ftCard)" stroke="#2D3742"/>
+    <circle cx="316" cy="350" r="17" fill="#0D1117" stroke="#2BD46B" stroke-width="2"/>
+    <path d="M316 341 L318 347 L324 349 L318 351 L316 357 L314 351 L308 349 L314 347 Z" fill="#2BD46B"/>
+    <circle cx="323" cy="356" r="1.6" fill="#2BD46B"/><circle cx="309" cy="356" r="1.6" fill="#2BD46B"/>
+    <text x="316" y="392" text-anchor="middle" font-size="13.5" font-weight="600" fill="#E6EDF3">AI support</text>
+    <text x="316" y="416" text-anchor="middle" font-size="10.5" fill="#8B949E">"Varvara"</text>
+    <text x="316" y="431" text-anchor="middle" font-size="10.5" fill="#8B949E">RAG + LLM</text>
+    <text x="316" y="460" text-anchor="middle" font-size="10" fill="#6E7681">dual-layer guardrails</text>
+    <text x="316" y="475" text-anchor="middle" font-size="10" fill="#6E7681">leakage filter</text>
+  </g>
+
+  <!-- 8 Admin -->
+  <g>
+    <rect x="426" y="314" width="188" height="212" rx="14" fill="url(#ftCard)" stroke="#2D3742"/>
+    <circle cx="520" cy="350" r="17" fill="#0D1117" stroke="#2BD46B" stroke-width="2"/>
+    <path d="M511 353 a9 9 0 0 1 18 0" fill="none" stroke="#2BD46B" stroke-width="1.6" stroke-linecap="round"/>
+    <line x1="520" y1="353" x2="525" y2="346" stroke="#2BD46B" stroke-width="1.6" stroke-linecap="round"/>
+    <circle cx="520" cy="353" r="1.8" fill="#2BD46B"/>
+    <text x="520" y="392" text-anchor="middle" font-size="13.5" font-weight="600" fill="#E6EDF3">Admin console</text>
+    <text x="520" y="416" text-anchor="middle" font-size="10.5" fill="#8B949E">ops console</text>
+    <text x="520" y="431" text-anchor="middle" font-size="10.5" fill="#8B949E">TOTP 2FA</text>
+    <text x="520" y="460" text-anchor="middle" font-size="10" fill="#6E7681">Prometheus metrics</text>
+    <text x="520" y="475" text-anchor="middle" font-size="10" fill="#6E7681">Telegram alerts</text>
+  </g>
+
+  <!-- 9 i18n -->
+  <g>
+    <rect x="630" y="314" width="188" height="212" rx="14" fill="url(#ftCard)" stroke="#2D3742"/>
+    <circle cx="724" cy="350" r="17" fill="#0D1117" stroke="#2BD46B" stroke-width="2"/>
+    <circle cx="724" cy="350" r="9" fill="none" stroke="#2BD46B" stroke-width="1.6"/>
+    <path d="M715 350 h18 M724 341 c-4 4 -4 14 0 18 M724 341 c4 4 4 14 0 18" fill="none" stroke="#2BD46B" stroke-width="1.4"/>
+    <text x="724" y="392" text-anchor="middle" font-size="13.5" font-weight="600" fill="#E6EDF3">i18n</text>
+    <text x="724" y="416" text-anchor="middle" font-size="10.5" fill="#8B949E">20+ locales</text>
+    <text x="724" y="431" text-anchor="middle" font-size="10.5" fill="#8B949E">RTL-ready</text>
+    <text x="724" y="460" text-anchor="middle" font-size="10" fill="#6E7681">GPS + timezone</text>
+    <text x="724" y="475" text-anchor="middle" font-size="10" fill="#6E7681">locale detection</text>
+  </g>
+
+  <!-- 10 Cargo -->
+  <g>
+    <rect x="834" y="314" width="188" height="212" rx="14" fill="url(#ftCard)" stroke="#2D3742"/>
+    <circle cx="928" cy="350" r="17" fill="#0D1117" stroke="#2BD46B" stroke-width="2"/>
+    <path d="M921 348 h11 l3 5 v4 h-14 Z" fill="none" stroke="#2BD46B" stroke-width="1.6" stroke-linejoin="round"/>
+    <circle cx="924" cy="359" r="2.2" fill="#2BD46B"/><circle cx="932" cy="359" r="2.2" fill="#2BD46B"/>
+    <text x="928" y="392" text-anchor="middle" font-size="13.5" font-weight="600" fill="#E6EDF3">Cargo &amp; loaders</text>
+    <text x="928" y="416" text-anchor="middle" font-size="10.5" fill="#8B949E">freight classes</text>
+    <text x="928" y="431" text-anchor="middle" font-size="10.5" fill="#8B949E">loader service</text>
+    <text x="928" y="460" text-anchor="middle" font-size="10" fill="#6E7681">cargo photo</text>
+    <text x="928" y="475" text-anchor="middle" font-size="10" fill="#6E7681">rating flows</text>
+  </g>
+
+  <text x="520" y="560" text-anchor="middle" font-size="10" fill="#3A4048">TAKSI · AI-Omnicor</text>
+</svg>

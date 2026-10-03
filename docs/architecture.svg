@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="600" viewBox="0 0 1040 600" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="cardTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1C232C"/>
+      <stop offset="1" stop-color="#161C24"/>
+    </linearGradient>
+    <linearGradient id="cardMod" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#181F29"/>
+      <stop offset="1" stop-color="#141A22"/>
+    </linearGradient>
+    <linearGradient id="greenFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2BD46B"/>
+      <stop offset="1" stop-color="#17A75A"/>
+    </linearGradient>
+    <marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#2BD46B"/>
+    </marker>
+    <marker id="arrM" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#6E7681"/>
+    </marker>
+    <marker id="arrV" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#BC8CFF"/>
+    </marker>
+  </defs>
+
+  <!-- canvas -->
+  <rect x="0.5" y="0.5" width="1039" height="599" rx="18" fill="#0D1117" stroke="#21262D"/>
+
+  <!-- header -->
+  <text x="520" y="46" text-anchor="middle" font-size="13" letter-spacing="6" fill="#8B949E">PLATFORM ARCHITECTURE</text>
+  <rect x="500" y="56" width="40" height="3" rx="1.5" fill="url(#greenFade)"/>
+
+  <!-- ===================== CLIENT ===================== -->
+  <g>
+    <rect x="60" y="82" width="330" height="160" rx="14" fill="url(#cardTop)" stroke="#2D3742"/>
+    <rect x="60" y="82" width="330" height="4" rx="2" fill="url(#greenFade)"/>
+    <!-- phone icon -->
+    <rect x="82" y="106" width="20" height="34" rx="5" fill="none" stroke="#2BD46B" stroke-width="2"/>
+    <line x1="89" y1="133" x2="95" y2="133" stroke="#2BD46B" stroke-width="2" stroke-linecap="round"/>
+    <text x="116" y="122" font-size="17" font-weight="600" fill="#E6EDF3">frontend_app</text>
+    <text x="116" y="140" font-size="12" fill="#8B949E">Flutter — single codebase</text>
+    <!-- platform chips -->
+    <g font-size="11" fill="#C9D1D9">
+      <rect x="82" y="160" width="62" height="24" rx="12" fill="#0D1117" stroke="#30363D"/>
+      <text x="113" y="176" text-anchor="middle">iOS</text>
+      <rect x="152" y="160" width="78" height="24" rx="12" fill="#0D1117" stroke="#30363D"/>
+      <text x="191" y="176" text-anchor="middle">Android</text>
+      <rect x="238" y="160" width="62" height="24" rx="12" fill="#0D1117" stroke="#30363D"/>
+      <text x="269" y="176" text-anchor="middle">Web</text>
+      <rect x="308" y="160" width="74" height="24" rx="12" fill="#0D1117" stroke="#30363D"/>
+      <text x="345" y="176" text-anchor="middle">Desktop</text>
+    </g>
+    <text x="82" y="216" font-size="11.5" fill="#6E7681">passenger · driver · admin console</text>
+  </g>
+
+  <!-- ===================== BACKEND ===================== -->
+  <g>
+    <rect x="650" y="82" width="330" height="160" rx="14" fill="url(#cardTop)" stroke="#2D3742"/>
+    <rect x="650" y="82" width="330" height="4" rx="2" fill="url(#greenFade)"/>
+    <!-- server icon -->
+    <rect x="672" y="104" width="30" height="10" rx="2.5" fill="none" stroke="#2BD46B" stroke-width="2"/>
+    <rect x="672" y="120" width="30" height="10" rx="2.5" fill="none" stroke="#2BD46B" stroke-width="2"/>
+    <rect x="672" y="136" width="30" height="10" rx="2.5" fill="none" stroke="#2BD46B" stroke-width="2"/>
+    <text x="716" y="122" font-size="17" font-weight="600" fill="#E6EDF3">backend</text>
+    <text x="716" y="140" font-size="12" fill="#8B949E">Go · chi router · REST + WS</text>
+    <g font-size="11" fill="#C9D1D9">
+      <rect x="672" y="160" width="92" height="24" rx="12" fill="#0D1117" stroke="#30363D"/>
+      <text x="718" y="176" text-anchor="middle">SQLite WAL</text>
+      <rect x="772" y="160" width="84" height="24" rx="12" fill="#0D1117" stroke="#30363D"/>
+      <text x="814" y="176" text-anchor="middle">matching</text>
+      <rect x="864" y="160" width="100" height="24" rx="12" fill="#0D1117" stroke="#30363D"/>
+      <text x="914" y="176" text-anchor="middle">Prometheus</text>
+    </g>
+    <text x="672" y="216" font-size="11.5" fill="#6E7681">ride engine · payments · geo · compliance</text>
+  </g>
+
+  <!-- ===================== TRANSPORT ARROWS ===================== -->
+  <line x1="392" y1="120" x2="644" y2="120" stroke="#2BD46B" stroke-width="2.5" marker-end="url(#arrG)"/>
+  <text x="518" y="110" text-anchor="middle" font-size="11.5" fill="#3FB950">HTTPS / REST</text>
+  <line x1="644" y1="196" x2="392" y2="196" stroke="#6E7681" stroke-width="2.5" marker-end="url(#arrM)"/>
+  <text x="518" y="214" text-anchor="middle" font-size="11.5" fill="#8B949E">WebSocket — live radar &amp; trip feed</text>
+
+  <!-- ===================== BUS ===================== -->
+  <path d="M815 242 L815 288 L115 288 L115 306" fill="none" stroke="#30363D" stroke-width="2"/>
+  <path d="M815 288 L295 288 L295 306" fill="none" stroke="#30363D" stroke-width="2"/>
+  <path d="M815 288 L475 288 L475 306" fill="none" stroke="#30363D" stroke-width="2"/>
+  <path d="M815 288 L655 288 L655 306" fill="none" stroke="#30363D" stroke-width="2"/>
+  <path d="M815 288 L835 288 L835 306" fill="none" stroke="#30363D" stroke-width="2"/>
+  <path d="M815 288 L965 288 L965 306" fill="none" stroke="#BC8CFF" stroke-width="2" stroke-dasharray="5 4"/>
+  <circle cx="815" cy="288" r="4" fill="#30363D"/>
+
+  <!-- ===================== MODULE CARDS ===================== -->
+  <!-- Payments -->
+  <g>
+    <rect x="45" y="306" width="140" height="180" rx="14" fill="url(#cardMod)" stroke="#2D3742"/>
+    <circle cx="115" cy="338" r="16" fill="#0D1117" stroke="#2BD46B" stroke-width="2"/>
+    <rect x="107" y="332" width="16" height="12" rx="2" fill="none" stroke="#2BD46B" stroke-width="1.6"/>
+    <line x1="107" y1="336" x2="123" y2="336" stroke="#2BD46B" stroke-width="1.6"/>
+    <text x="115" y="378" text-anchor="middle" font-size="14" font-weight="600" fill="#E6EDF3">Payments</text>
+    <text x="115" y="400" text-anchor="middle" font-size="11" fill="#8B949E">Sber · SBP</text>
+    <text x="115" y="417" text-anchor="middle" font-size="11" fill="#8B949E">Payrail · local rails</text>
+    <text x="115" y="441" text-anchor="middle" font-size="10.5" fill="#6E7681">passenger → driver</text>
+    <text x="115" y="457" text-anchor="middle" font-size="10.5" fill="#6E7681">instant payout</text>
+  </g>
+
+  <!-- Geo stack -->
+  <g>
+    <rect x="225" y="306" width="140" height="180" rx="14" fill="url(#cardMod)" stroke="#2D3742"/>
+    <circle cx="295" cy="338" r="16" fill="#0D1117" stroke="#2BD46B" stroke-width="2"/>
+    <path d="M295 330 c-4.5 0 -7 3 -7 6.5 c0 5 7 11.5 7 11.5 c0 0 7 -6.5 7 -11.5 c0 -3.5 -2.5 -6.5 -7 -6.5 Z" fill="none" stroke="#2BD46B" stroke-width="1.6"/>
+    <circle cx="295" cy="337" r="2.4" fill="#2BD46B"/>
+    <text x="295" y="378" text-anchor="middle" font-size="14" font-weight="600" fill="#E6EDF3">Geo stack</text>
+    <text x="295" y="400" text-anchor="middle" font-size="11" fill="#8B949E">2GIS → Mapbox</text>
+    <text x="295" y="417" text-anchor="middle" font-size="11" fill="#8B949E">→ OSM / OSRM</text>
+    <text x="295" y="441" text-anchor="middle" font-size="10.5" fill="#6E7681">provider cascade</text>
+    <text x="295" y="457" text-anchor="middle" font-size="10.5" fill="#6E7681">83-country polygons</text>
+  </g>
+
+  <!-- Compliance -->
+  <g>
+    <rect x="405" y="306" width="140" height="180" rx="14" fill="url(#cardMod)" stroke="#2D3742"/>
+    <circle cx="475" cy="338" r="16" fill="#0D1117" stroke="#2BD46B" stroke-width="2"/>
+    <path d="M475 329 L483 332.5 L483 340 c0 5 -3.5 8 -8 10 c-4.5 -2 -8 -5 -8 -10 L467 332.5 Z" fill="none" stroke="#2BD46B" stroke-width="1.6"/>
+    <path d="M471.5 338 L474 340.5 L478.5 335.5" fill="none" stroke="#2BD46B" stroke-width="1.6" stroke-linecap="round"/>
+    <text x="475" y="378" text-anchor="middle" font-size="14" font-weight="600" fill="#E6EDF3">Compliance</text>
+    <text x="475" y="400" text-anchor="middle" font-size="11" fill="#8B949E">FGIS Taxi</text>
+    <text x="475" y="417" text-anchor="middle" font-size="11" fill="#8B949E">FNS tax registry</text>
+    <text x="475" y="441" text-anchor="middle" font-size="10.5" fill="#6E7681">FZ-580 journal</text>
+    <text x="475" y="457" text-anchor="middle" font-size="10.5" fill="#6E7681">fail-closed checks</text>
+  </g>
+
+  <!-- AI support -->
+  <g>
+    <rect x="585" y="306" width="140" height="180" rx="14" fill="url(#cardMod)" stroke="#2D3742"/>
+    <circle cx="655" cy="338" r="16" fill="#0D1117" stroke="#2BD46B" stroke-width="2"/>
+    <path d="M655 329 L657 335 L663 337 L657 339 L655 345 L653 339 L647 337 L653 335 Z" fill="#2BD46B"/>
+    <circle cx="662" cy="344" r="1.6" fill="#2BD46B"/>
+    <circle cx="648" cy="344" r="1.6" fill="#2BD46B"/>
+    <text x="655" y="378" text-anchor="middle" font-size="14" font-weight="600" fill="#E6EDF3">AI Support</text>
+    <text x="655" y="400" text-anchor="middle" font-size="11" fill="#8B949E">"Varvara"</text>
+    <text x="655" y="417" text-anchor="middle" font-size="11" fill="#8B949E">RAG + LLM</text>
+    <text x="655" y="441" text-anchor="middle" font-size="10.5" fill="#6E7681">dual-layer</text>
+    <text x="655" y="457" text-anchor="middle" font-size="10.5" fill="#6E7681">guardrails</text>
+  </g>
+
+  <!-- Pricing -->
+  <g>
+    <rect x="765" y="306" width="140" height="180" rx="14" fill="url(#cardMod)" stroke="#2D3742"/>
+    <circle cx="835" cy="338" r="16" fill="#0D1117" stroke="#2BD46B" stroke-width="2"/>
+    <path d="M827 345 L832 339 L836 342 L843 331" fill="none" stroke="#2BD46B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="843" cy="331" r="1.8" fill="#2BD46B"/>
+    <text x="835" y="378" text-anchor="middle" font-size="14" font-weight="600" fill="#E6EDF3">Pricing</text>
+    <text x="835" y="400" text-anchor="middle" font-size="11" fill="#8B949E">dynamic engine</text>
+    <text x="835" y="417" text-anchor="middle" font-size="11" fill="#8B949E">per-city classes</text>
+    <text x="835" y="441" text-anchor="middle" font-size="10.5" fill="#6E7681">regional factors</text>
+    <text x="835" y="457" text-anchor="middle" font-size="10.5" fill="#6E7681">bounded auto-fix</text>
+  </g>
+
+  <!-- OMNICOR (dormant) -->
+  <g>
+    <rect x="925" y="306" width="90" height="180" rx="14" fill="#151022" stroke="#BC8CFF" stroke-width="1.5" stroke-dasharray="6 5"/>
+    <circle cx="970" cy="338" r="16" fill="#0D1117" stroke="#BC8CFF" stroke-width="2"/>
+    <path d="M970 330 L977 334 L977 342 L970 346 L963 342 L963 334 Z" fill="none" stroke="#BC8CFF" stroke-width="1.6"/>
+    <text x="970" y="378" text-anchor="middle" font-size="13" font-weight="600" fill="#D2A8FF">OMNICOR</text>
+    <text x="970" y="394" text-anchor="middle" font-size="10.5" fill="#BC8CFF">L2 · OMNI</text>
+    <text x="970" y="416" text-anchor="middle" font-size="10" fill="#8B949E">buyback-</text>
+    <text x="970" y="429" text-anchor="middle" font-size="10" fill="#8B949E">burn</text>
+    <text x="970" y="457" text-anchor="middle" font-size="9.5" fill="#6E7681">dormant ·</text>
+    <text x="970" y="469" text-anchor="middle" font-size="9.5" fill="#6E7681">config-activated</text>
+  </g>
+
+  <!-- footer note -->
+  <text x="520" y="536" text-anchor="middle" font-size="11" fill="#484F58">passenger pays → driver receives instantly · platform earns on flat shift subscription — zero per-ride commission</text>
+  <text x="520" y="560" text-anchor="middle" font-size="10" fill="#3A4048">TAKSI · AI-Omnicor</text>
+</svg>

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="430" viewBox="0 0 1040 430" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="ocCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1C232C"/>
+      <stop offset="1" stop-color="#161C24"/>
+    </linearGradient>
+    <linearGradient id="ocViolet" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#BC8CFF"/>
+      <stop offset="1" stop-color="#8957E5"/>
+    </linearGradient>
+    <linearGradient id="ocGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2BD46B"/>
+      <stop offset="1" stop-color="#17A75A"/>
+    </linearGradient>
+    <marker id="ocArrV" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#BC8CFF"/>
+    </marker>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="1039" height="429" rx="18" fill="#0D1117" stroke="#21262D"/>
+  <text x="520" y="44" text-anchor="middle" font-size="13" letter-spacing="6" fill="#8B949E">OMNICOR L2 · OMNI TOKENOMICS</text>
+  <rect x="500" y="54" width="40" height="3" rx="1.5" fill="url(#ocViolet)"/>
+  <text x="520" y="76" text-anchor="middle" font-size="10.5" fill="#6E7681">dormant by default — activates purely by configuration, fiat rails unaffected</text>
+
+  <!-- ===== LEFT: buyback-burn cycle ===== -->
+  <text x="60" y="112" font-size="11" letter-spacing="3" fill="#BC8CFF">BUYBACK-BURN CYCLE</text>
+
+  <!-- revenue -->
+  <g>
+    <rect x="60" y="126" width="180" height="84" rx="14" fill="url(#ocCard)" stroke="#2D3742"/>
+    <text x="150" y="162" text-anchor="middle" font-size="13.5" font-weight="600" fill="#E6EDF3">Platform</text>
+    <text x="150" y="180" text-anchor="middle" font-size="13.5" font-weight="600" fill="#E6EDF3">revenue</text>
+  </g>
+
+  <!-- buyback -->
+  <g>
+    <line x1="242" y1="168" x2="296" y2="168" stroke="#BC8CFF" stroke-width="2" marker-end="url(#ocArrV)"/>
+    <rect x="300" y="126" width="170" height="84" rx="14" fill="url(#ocCard)" stroke="#BC8CFF" stroke-dasharray="5 4"/>
+    <path d="M385 148 L392 154 L392 162 L385 166 L378 162 L378 154 Z" fill="none" stroke="#BC8CFF" stroke-width="1.6"/>
+    <text x="385" y="184" text-anchor="middle" font-size="13" font-weight="600" fill="#D2A8FF">OMNI buyback</text>
+    <text x="385" y="200" text-anchor="middle" font-size="10" fill="#8B949E">open market</text>
+  </g>
+
+  <!-- split arrows -->
+  <path d="M470 168 L520 168 L520 138 L556 138" fill="none" stroke="#BC8CFF" stroke-width="2" marker-end="url(#ocArrV)"/>
+  <path d="M470 168 L520 168 L520 230 L556 230" fill="none" stroke="#BC8CFF" stroke-width="2" marker-end="url(#ocArrV)"/>
+
+  <!-- 70% burn -->
+  <g>
+    <rect x="560" y="104" width="200" height="70" rx="14" fill="#1A1228" stroke="#BC8CFF"/>
+    <text x="580" y="132" font-size="17" font-weight="700" fill="#D2A8FF">70%</text>
+    <text x="630" y="126" font-size="12.5" font-weight="600" fill="#E6EDF3">burned forever</text>
+    <text x="630" y="143" font-size="10" fill="#8B949E">public totalBurned</text>
+    <text x="630" y="157" font-size="10" fill="#8B949E">counter on-chain</text>
+  </g>
+
+  <!-- 30% treasury -->
+  <g>
+    <rect x="560" y="196" width="200" height="70" rx="14" fill="url(#ocCard)" stroke="#2D3742"/>
+    <text x="580" y="224" font-size="17" font-weight="700" fill="#8B949E">30%</text>
+    <text x="630" y="218" font-size="12.5" font-weight="600" fill="#E6EDF3">treasury</text>
+    <text x="630" y="235" font-size="10" fill="#8B949E">relayer gas ·</text>
+    <text x="630" y="249" font-size="10" fill="#8B949E">rider incentives</text>
+  </g>
+
+  <text x="410" y="300" text-anchor="middle" font-size="10.5" fill="#6E7681">every cycle leaves verifiable on-chain evidence —</text>
+  <text x="410" y="315" text-anchor="middle" font-size="10.5" fill="#6E7681">no trust in platform accounting required</text>
+
+  <!-- divider -->
+  <line x1="800" y1="104" x2="800" y2="330" stroke="#21262D"/>
+
+  <!-- ===== RIGHT: emission ===== -->
+  <text x="828" y="112" font-size="11" letter-spacing="3" fill="#BC8CFF">EMISSION</text>
+
+  <!-- bars -->
+  <g font-size="10.5">
+    <rect x="828" y="124" width="26" height="26" rx="6" fill="url(#ocViolet)"/>
+    <text x="862" y="137" fill="#E6EDF3" font-weight="600">10%</text>
+    <text x="862" y="150" fill="#8B949E">circulating at launch</text>
+
+    <rect x="828" y="162" width="52" height="26" rx="6" fill="#8957E5" opacity="0.85"/>
+    <text x="888" y="175" fill="#E6EDF3" font-weight="600">20%</text>
+    <text x="888" y="188" fill="#8B949E">founder allocation</text>
+
+    <rect x="828" y="200" width="172" height="26" rx="6" fill="#BC8CFF" opacity="0.35" stroke="#BC8CFF" stroke-dasharray="4 3"/>
+    <text x="1008" y="213" text-anchor="end" fill="#E6EDF3" font-weight="600">70%</text>
+    <text x="828" y="246" fill="#8B949E">ecosystem reserve — locked vesting</text>
+  </g>
+
+  <!-- vesting decay -->
+  <g>
+    <text x="828" y="286" font-size="10.5" fill="#8B949E">10-year decaying schedule:</text>
+    <rect x="828" y="296" width="15" height="34" rx="3" fill="#BC8CFF" opacity="0.9"/>
+    <rect x="848" y="303" width="15" height="27" rx="3" fill="#BC8CFF" opacity="0.75"/>
+    <rect x="868" y="309" width="15" height="21" rx="3" fill="#BC8CFF" opacity="0.6"/>
+    <rect x="888" y="314" width="15" height="16" rx="3" fill="#BC8CFF" opacity="0.5"/>
+    <rect x="908" y="318" width="15" height="12" rx="3" fill="#BC8CFF" opacity="0.4"/>
+    <rect x="928" y="321" width="15" height="9" rx="3" fill="#BC8CFF" opacity="0.32"/>
+    <rect x="948" y="324" width="15" height="6" rx="3" fill="#BC8CFF" opacity="0.25"/>
+    <text x="972" y="332" font-size="10" fill="#6E7681">each release &lt; previous</text>
+  </g>
+
+  <text x="520" y="378" text-anchor="middle" font-size="10.5" fill="#6E7681">hot executor wallets · cold corporate treasury · idempotent flows · batch caps · gas circuit breakers</text>
+  <text x="520" y="404" text-anchor="middle" font-size="10" fill="#3A4048">TAKSI · AI-Omnicor</text>
+</svg>

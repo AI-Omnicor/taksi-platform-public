@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="400" viewBox="0 0 1040 400" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="ecCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1C232C"/>
+      <stop offset="1" stop-color="#161C24"/>
+    </linearGradient>
+    <linearGradient id="ecGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2BD46B"/>
+      <stop offset="1" stop-color="#17A75A"/>
+    </linearGradient>
+    <marker id="ecArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#2BD46B"/>
+    </marker>
+    <marker id="ecArrM" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#6E7681"/>
+    </marker>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="1039" height="399" rx="18" fill="#0D1117" stroke="#21262D"/>
+  <text x="520" y="44" text-anchor="middle" font-size="13" letter-spacing="6" fill="#8B949E">HOW THE MONEY FLOWS</text>
+  <rect x="500" y="54" width="40" height="3" rx="1.5" fill="url(#ecGreen)"/>
+
+  <!-- Lane A: fare -->
+  <text x="60" y="96" font-size="11" letter-spacing="3" fill="#3FB950">FARE LANE</text>
+
+  <!-- Passenger -->
+  <g>
+    <rect x="60" y="108" width="220" height="110" rx="14" fill="url(#ecCard)" stroke="#2D3742"/>
+    <circle cx="94" cy="142" r="15" fill="#0D1117" stroke="#2BD46B" stroke-width="2"/>
+    <circle cx="94" cy="137" r="5" fill="none" stroke="#2BD46B" stroke-width="1.6"/>
+    <path d="M85.5 150.5 c1.5-5 15.5-5 17 0" fill="none" stroke="#2BD46B" stroke-width="1.6" stroke-linecap="round"/>
+    <text x="122" y="138" font-size="15" font-weight="600" fill="#E6EDF3">Passenger</text>
+    <text x="122" y="156" font-size="11" fill="#8B949E">fare held at order</text>
+    <text x="84" y="196" font-size="10.5" fill="#6E7681">card · SBP · local rails</text>
+  </g>
+
+  <!-- arrow to engine -->
+  <line x1="284" y1="163" x2="366" y2="163" stroke="#2BD46B" stroke-width="2.5" marker-end="url(#ecArr)"/>
+  <text x="325" y="153" text-anchor="middle" font-size="10.5" fill="#3FB950">hold</text>
+
+  <!-- Engine -->
+  <g>
+    <rect x="370" y="108" width="200" height="110" rx="14" fill="url(#ecCard)" stroke="#2D3742"/>
+    <circle cx="402" cy="142" r="15" fill="#0D1117" stroke="#2BD46B" stroke-width="2"/>
+    <rect x="394" y="139" width="16" height="12" rx="3" fill="none" stroke="#2BD46B" stroke-width="1.6"/>
+    <path d="M398 139 v-3 a4.5 4.5 0 0 1 9 0 v3" fill="none" stroke="#2BD46B" stroke-width="1.6"/>
+    <text x="430" y="138" font-size="15" font-weight="600" fill="#E6EDF3">Ride engine</text>
+    <text x="430" y="156" font-size="11" fill="#8B949E">PIN-verified pickup</text>
+    <text x="394" y="196" font-size="10.5" fill="#6E7681">release on ride completion</text>
+  </g>
+
+  <!-- arrow to driver -->
+  <line x1="574" y1="163" x2="706" y2="163" stroke="#2BD46B" stroke-width="2.5" marker-end="url(#ecArr)"/>
+  <text x="640" y="153" text-anchor="middle" font-size="10.5" fill="#3FB950">100% of fare</text>
+
+  <!-- Driver -->
+  <g>
+    <rect x="710" y="108" width="220" height="110" rx="14" fill="url(#ecCard)" stroke="#2D3742"/>
+    <rect x="710" y="108" width="220" height="4" rx="2" fill="url(#ecGreen)"/>
+    <circle cx="744" cy="142" r="15" fill="#0D1117" stroke="#2BD46B" stroke-width="2"/>
+    <rect x="736" y="137" width="16" height="11" rx="2" fill="none" stroke="#2BD46B" stroke-width="1.6"/>
+    <path d="M736 140.5 h16" stroke="#2BD46B" stroke-width="1.6"/>
+    <text x="772" y="138" font-size="15" font-weight="600" fill="#E6EDF3">Driver</text>
+    <text x="772" y="156" font-size="11" fill="#8B949E">instant payout</text>
+    <text x="734" y="196" font-size="10.5" fill="#6E7681">SBP · same-day settlement</text>
+  </g>
+
+  <!-- zero commission badge -->
+  <g>
+    <rect x="418" y="234" width="204" height="34" rx="17" fill="#0E2417" stroke="#2BD46B"/>
+    <text x="520" y="256" text-anchor="middle" font-size="13" font-weight="600" fill="#3FB950">0% per-ride commission</text>
+  </g>
+
+  <!-- Lane B: subscription -->
+  <text x="60" y="310" font-size="11" letter-spacing="3" fill="#8B949E">PLATFORM LANE</text>
+
+  <!-- Subscription flow: driver pays platform -->
+  <g>
+    <rect x="60" y="322" width="220" height="62" rx="14" fill="url(#ecCard)" stroke="#2D3742"/>
+    <circle cx="90" cy="353" r="13" fill="#0D1117" stroke="#8B949E" stroke-width="2"/>
+    <circle cx="90" cy="353" r="7" fill="none" stroke="#8B949E" stroke-width="1.6"/>
+    <circle cx="90" cy="353" r="2" fill="#8B949E"/>
+    <text x="114" y="349" font-size="14" font-weight="600" fill="#E6EDF3">Driver</text>
+    <text x="114" y="366" font-size="11" fill="#8B949E">buys a work shift</text>
+  </g>
+
+  <line x1="284" y1="353" x2="366" y2="353" stroke="#6E7681" stroke-width="2.5" marker-end="url(#ecArrM)"/>
+  <text x="325" y="343" text-anchor="middle" font-size="10.5" fill="#8B949E">flat shift fee</text>
+
+  <!-- Platform -->
+  <g>
+    <rect x="370" y="322" width="200" height="62" rx="14" fill="url(#ecCard)" stroke="#2D3742"/>
+    <circle cx="400" cy="353" r="13" fill="#0D1117" stroke="#8B949E" stroke-width="2"/>
+    <path d="M395 349 L405 349 L403 359 L397 359 Z" fill="none" stroke="#8B949E" stroke-width="1.6"/>
+    <text x="424" y="349" font-size="14" font-weight="600" fill="#E6EDF3">TAKSI platform</text>
+    <text x="424" y="366" font-size="11" fill="#8B949E">subscription revenue</text>
+  </g>
+
+  <!-- connector driver → subscription -->
+  <path d="M820 218 L820 353 L574 353" fill="none" stroke="#30363D" stroke-width="2" stroke-dasharray="5 4"/>
+  <polygon points="574,353 582,349 582,357" fill="#6E7681"/>
+  <text x="700" y="345" text-anchor="middle" font-size="10" fill="#6E7681">the only platform take</text>
+</svg>
