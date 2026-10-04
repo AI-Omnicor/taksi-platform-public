@@ -25,7 +25,7 @@
   <!-- ===== LEFT: buyback-burn cycle ===== -->
   <text x="60" y="112" font-size="11" letter-spacing="3" fill="#BC8CFF">BUYBACK-BURN CYCLE</text>
 
-  <!-- ROW A: taxi revenue — RUB debt book -->
+  <!-- ROW A: taxi revenue — Debt book -->
   <g>
     <rect x="60" y="124" width="150" height="64" rx="14" fill="url(#ocCard)" stroke="#2D3742"/>
     <text x="135" y="150" text-anchor="middle" font-size="13" font-weight="600" fill="#E6EDF3">Platform</text>
@@ -34,8 +34,8 @@
   <line x1="212" y1="156" x2="254" y2="156" stroke="#BC8CFF" stroke-width="2" marker-end="url(#ocArrV)"/>
   <g>
     <rect x="258" y="124" width="164" height="64" rx="14" fill="url(#ocCard)" stroke="#BC8CFF" stroke-dasharray="5 4"/>
-    <text x="340" y="148" text-anchor="middle" font-size="12.5" font-weight="600" fill="#D2A8FF">RUB debt book</text>
-    <text x="340" y="167" text-anchor="middle" font-size="10" fill="#8B949E">per completed ride</text>
+    <text x="340" y="148" text-anchor="middle" font-size="12.5" font-weight="600" fill="#D2A8FF">Debt book</text>
+    <text x="340" y="167" text-anchor="middle" font-size="10" fill="#8B949E">every ride · any currency</text>
   </g>
   <line x1="424" y1="156" x2="466" y2="156" stroke="#BC8CFF" stroke-width="2" marker-end="url(#ocArrV)"/>
   <g>
@@ -43,7 +43,7 @@
     <text x="492" y="152" font-size="17" font-weight="700" fill="#D2A8FF">100%</text>
     <text x="556" y="146" font-size="12.5" font-weight="600" fill="#E6EDF3">burned forever</text>
     <text x="556" y="163" font-size="10" fill="#8B949E">Safe burn on L1 · monthly</text>
-    <text x="556" y="177" font-size="10" fill="#8B949E">OMNI rate fixed at burn date</text>
+    <text x="556" y="177" font-size="10" fill="#8B949E">OMNI rate locked at record</text>
   </g>
 
   <!-- ROW B: protocol fees — FeeSplitter -->
