@@ -56,7 +56,7 @@ A worldwide ride-hailing, freight, and loaders platform — passenger app, drive
 
 <p>
   <img src="docs/brand/omni-token-dark.svg" width="48" align="right" alt="OMNI token">
-  TAKSI is wired into the <a href="https://github.com/AI-Omnicor">OMNICOR</a>
+  TAKSI is wired into the <a href="https://github.com/AI-Omnicor/omnicor-public">OMNICOR</a>
   network — an independent L2 blockchain with the OMNI utility token.
   The integration is dormant by default and activates purely by
   configuration; the platform ships and operates fully on fiat rails.
