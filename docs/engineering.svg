@@ -30,7 +30,7 @@
       <text x="60" y="250" fill="#E6EDF3" font-weight="600">legal/</text>
       <text x="106" y="250" fill="#8B949E" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5">docs per jurisdiction</text>
       <text x="60" y="276" fill="#E6EDF3" font-weight="600">AUDIT.md</text>
-      <text x="136" y="276" fill="#8B949E" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5">audit log · 21 passes</text>
+      <text x="136" y="276" fill="#8B949E" font-family="'Segoe UI', Arial, sans-serif" font-size="10.5">audit log · 22 passes</text>
     </g>
     <line x1="60" y1="296" x2="320" y2="296" stroke="#21262D"/>
     <text x="60" y="322" font-size="10.5" fill="#6E7681">geo · compliance · tts · aisupport</text>
@@ -88,7 +88,7 @@
 
     <rect x="760" y="292" width="220" height="66" rx="12" fill="#0E2417" stroke="#2BD46B"/>
     <text x="774" y="316" font-size="11.5" font-weight="600" fill="#3FB950">go vet · race suite ·</text>
-    <text x="774" y="334" font-size="11.5" font-weight="600" fill="#3FB950">21 audit passes — green</text>
+    <text x="774" y="334" font-size="11.5" font-weight="600" fill="#3FB950">22 audit passes — green</text>
   </g>
 
   <text x="520" y="412" text-anchor="middle" font-size="10" fill="#3A4048">TAKSI · AI-Omnicor</text>

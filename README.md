@@ -62,10 +62,14 @@ A worldwide ride-hailing, freight, and loaders platform — passenger app, drive
   configuration; the platform ships and operates fully on fiat rails.
 </p>
 
-A share of platform revenue continuously buys back OMNI on the open
-market: **70% is burned** (public `totalBurned` counter), **30% funds
-the Treasury**. Emission is staged — 10% circulating, 20% founder
-allocation, 70% ecosystem reserve under a 10-year decaying vesting.
+Every completed ride books a rouble-denominated buyback obligation —
+a public debt ledger with no OMNI price locked in. A Safe periodically
+burns the matching OMNI on L1: **100% of the taxi buyback is destroyed**
+(public `totalBurned` counter). Protocol fees flow through an immutable
+FeeSplitter — **70% burned, 30% to the Treasury** on every `sweep()`.
+Emission is staged — 10% circulating, 20% founder allocation, 70%
+ecosystem reserve released in ~40 quarterly tranches over 10 years;
+unclaimed tranches burn automatically. Supply only ever shrinks.
 Custody is split between hot executor wallets and cold corporate
 addresses whose keys never touch the server.
 
