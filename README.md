@@ -64,10 +64,13 @@ A worldwide ride-hailing, freight, and loaders platform — passenger app, drive
 
 Every completed ride — any currency, any country — books a buyback
 obligation into a currency-neutral debt ledger, with the OMNI amount
-locked at the rate on record. A Safe periodically burns exactly that
-sum on L1: **100% of the taxi buyback is destroyed** (public
-`totalBurned` counter). Protocol fees flow through an immutable
-FeeSplitter — **70% burned, 30% to the Treasury** on every `sweep()`.
+locked at the agreed rate source on record (auditable `rate_src`
+per record). A Safe periodically burns exactly that sum on L1:
+**100% of the taxi buyback is destroyed** — and each settlement is
+verified on-chain, matching the ledger against the exact wei amount
+of the `Transfer → 0x…dEaD` receipt. Protocol fees flow through an
+immutable FeeSplitter — **70% burned, 30% to the Treasury** on every
+`sweep()`.
 Emission is staged — 10% circulating, 20% founder allocation, 70%
 ecosystem reserve released in ~40 quarterly tranches over 10 years;
 unclaimed tranches burn automatically. Supply only ever shrinks.
