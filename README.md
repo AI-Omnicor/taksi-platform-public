@@ -15,6 +15,8 @@ A worldwide ride-hailing, freight, and loaders platform — passenger app, drive
 
 **Core economics:** drivers keep 100% of the fare with instant payout on ride completion. The platform monetizes through a flat shift subscription instead of per-ride commission. Passenger fares are set by a proprietary dynamic pricing engine tuned per city and vehicle class.
 
+**Unit economics:** ≈97% contribution margin per shift — flat access fee ($0.80–$16 localized, ≈1 average local ride), direct driver payments, ~99% automation. Full model: [docs/unit-economics.md](docs/unit-economics.md).
+
 ---
 
 ## Architecture
@@ -28,6 +30,8 @@ A worldwide ride-hailing, freight, and loaders platform — passenger app, drive
 <p align="center">
   <img src="docs/economics.svg" width="980" alt="Money flow — passenger pays, driver receives 100%, platform earns on shift subscription">
 </p>
+
+Per-shift P&L, market-share scenarios and the buyback flywheel — [docs/unit-economics.md](docs/unit-economics.md).
 
 ## Screenshots
 
